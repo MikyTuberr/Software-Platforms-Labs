@@ -6,11 +6,6 @@ public class Message implements Serializable {
     private int number;
     private String content;
 
-    Message(int num, String con) {
-        this.number = num;
-        this.content = con;
-    }
-
     public int getNumber() {
         return number;
     }
