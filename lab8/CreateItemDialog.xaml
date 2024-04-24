@@ -1,0 +1,31 @@
+﻿<Window x:Class="PT_8.CreateItemDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PT_8"
+        mc:Ignorable="d"
+        Title="CreateItemDialog" Height="300" Width="350">
+    <Grid Margin="0,23,0,0">
+        <StackPanel Margin="10">
+            <TextBlock Text="File Type:"/>
+            <StackPanel Orientation="Horizontal">
+                <RadioButton x:Name="rbFile" Content="File" IsChecked="True" Margin="5"/>
+                <RadioButton x:Name="rbDirectory" Content="Directory" Margin="5"/>
+            </StackPanel>
+
+            <TextBlock Text="File Name:" Margin="5,10,5,0"/>
+            <TextBox x:Name="txtFileName" Margin="5" Width="200"/>
+
+            <TextBlock Text="Attributes:" Margin="5,10,5,0"/>
+            <StackPanel Orientation="Horizontal">
+                <CheckBox x:Name="chkReadOnly" Content="Read Only" Margin="5"/>
+                <CheckBox x:Name="chkArchive" Content="Archive" Margin="5"/>
+                <CheckBox x:Name="chkHidden" Content="Hidden" Margin="5"/>
+                <CheckBox x:Name="chkSystem" Content="System" Margin="5"/>
+            </StackPanel>
+
+            <Button Content="Create" Click="Create_Click" HorizontalAlignment="Right" Margin="5" Padding="10,5"/>
+        </StackPanel>
+    </Grid>
+</Window>
