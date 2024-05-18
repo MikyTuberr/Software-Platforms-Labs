@@ -1,0 +1,54 @@
+﻿<Window x:Class="PT_10.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PT_10"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1200">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Nagłówki dla kontrolek edycji samochodu -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal">
+            <StackPanel.Resources>
+                <Style TargetType="Label">
+                    <Setter Property="Margin" Value="5"/>
+                    <Setter Property="Width" Value="50"/>
+                    <Setter Property="HorizontalAlignment" Value="Right"/>
+                </Style>
+                <Style TargetType="TextBox">
+                    <Setter Property="Margin" Value="5"/>
+                    <Setter Property="Width" Value="80"/>
+                </Style>
+            </StackPanel.Resources>
+            <Label Content="Model:"/>
+            <TextBox x:Name="carModelTextBox"/>
+            <Label Content="Model:"/>
+            <TextBox x:Name="motorModelTextBox"/>
+            <Label Content="Displ:"/>
+            <TextBox x:Name="displacementTextBox"/>
+            <Label Content="HP:"/>
+            <TextBox x:Name="horsePowerTextBox"/>
+            <Label Content="Year:"/>
+            <TextBox x:Name="yearTextBox"/>
+        </StackPanel>
+
+
+        <!-- Przyciski do dodawania i usuwania samochodów -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Right"/>
+
+        <!-- Wyszukiwanie -->
+        <TextBox x:Name="searchTextBox" Grid.Row="1" Margin="932,466,21,10" TextChanged="SearchTextBox_TextChanged"/>
+
+        <!-- DataGrid z samochodami -->
+        <DataGrid x:Name="dataGrid" Grid.Row="1" AutoGenerateColumns="True" Margin="5,5,10,166"/>
+        <Button Content="Add car" Click="AddCarButton_Click" Margin="20,464,1070,12" Grid.Row="1"/>
+        <Button Content="Delete Car" Click="RemoveCarButton_Click" Margin="152,464,924,12" Grid.Row="1"/>
+        <Button Content="Sort by HP" Click="SortByHorsePowerButton_Click" Margin="311,463,776,11" Grid.Row="1"/>
+        <TextBlock x:Name="resultTextBlock" Grid.Row="1" Margin="505,387,342,0"/>
+    </Grid>
+</Window>
