@@ -1,0 +1,9 @@
+C:\Users\pio13\Downloads\PT_11-master\PT_11-master\peteki\bin\Debug\peteki.exe.config
+C:\Users\pio13\Downloads\PT_11-master\PT_11-master\peteki\bin\Debug\peteki.exe
+C:\Users\pio13\Downloads\PT_11-master\PT_11-master\peteki\bin\Debug\peteki.pdb
+C:\Users\pio13\Downloads\PT_11-master\PT_11-master\peteki\obj\Debug\peteki.csproj.AssemblyReference.cache
+C:\Users\pio13\Downloads\PT_11-master\PT_11-master\peteki\obj\Debug\peteki.Properties.Resources.resources
+C:\Users\pio13\Downloads\PT_11-master\PT_11-master\peteki\obj\Debug\peteki.csproj.GenerateResource.cache
+C:\Users\pio13\Downloads\PT_11-master\PT_11-master\peteki\obj\Debug\peteki.csproj.CoreCompileInputs.cache
+C:\Users\pio13\Downloads\PT_11-master\PT_11-master\peteki\obj\Debug\peteki.exe
+C:\Users\pio13\Downloads\PT_11-master\PT_11-master\peteki\obj\Debug\peteki.pdb
