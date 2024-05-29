@@ -1,0 +1,7 @@
+C:\Users\student\Downloads\PT_12-master\PT_12-master\PT_12\bin\Debug\PT_12.exe.config
+C:\Users\student\Downloads\PT_12-master\PT_12-master\PT_12\bin\Debug\PT_12.exe
+C:\Users\student\Downloads\PT_12-master\PT_12-master\PT_12\bin\Debug\PT_12.pdb
+C:\Users\student\Downloads\PT_12-master\PT_12-master\PT_12\obj\Debug\Server.csproj.AssemblyReference.cache
+C:\Users\student\Downloads\PT_12-master\PT_12-master\PT_12\obj\Debug\Server.csproj.CoreCompileInputs.cache
+C:\Users\student\Downloads\PT_12-master\PT_12-master\PT_12\obj\Debug\PT_12.exe
+C:\Users\student\Downloads\PT_12-master\PT_12-master\PT_12\obj\Debug\PT_12.pdb
